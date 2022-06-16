@@ -573,9 +573,9 @@ function makeJS() {
 // -- Report metadata to be updated by REs -- 
 // update Title, description, image url, content url, Google Analytics "UA" tag, and PDF name
 function makeHead() {
-  let title = 'Structural Time Series'
+  let title = 'Semantic Recommendations'
   let description =
-    'An online research report on structural time series by Cloudera Fast Forward.'
+    'An online research report on semantic recommendations by Cloudera Fast Forward.'
   return `<head>
 <meta charset="utf-8" />
 
@@ -584,8 +584,8 @@ function makeHead() {
 
 <meta property="og:title" content="${title}" /> 
 <meta property="og:description" content="${description}" />
-<meta property="og:image" content="https://structural-time-series.fastforwardlabs.com/figures/ff16-cover-splash.png" />
-<meta property="og:url" content="https://structural-time-series.fastforwardlabs.com" />
+<meta property="og:image" content="https://semantic-recommendations.fastforwardlabs.com/figures/cover-iso-10.png" />
+<meta property="og:url" content="https://semantic-recommendations.fastforwardlabs.com" />
 <meta name="twitter:card" content="summary_large_image" />
 
 <meta name="viewport" content="width=device-width" />
@@ -601,14 +601,14 @@ ${makeJS()}
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-157475426-9', 'auto');
+  ga('create', 'UA-53030428-19', 'auto');
   ga('send', 'pageview');
 
   window.addEventListener('load', function() {
     document.getElementById('report-pdf-download').addEventListener('click', function() {
       ga('send', {
         hitType: 'pageview',
-        page: '//FF16-Structural_Time_Series-Cloudera_Fast_Forward.pdf'
+        page: '//FF07-Semantic_Recommendations.pdf'
       });
     });
   })
