@@ -1,6 +1,6 @@
 # Semantic Recommendations
 
-FF07 · _2017_
+FF07 · ©2017 Cloudera, Inc. All rights reserved
 
 ![](figures/cover-iso-10.png) 
 
